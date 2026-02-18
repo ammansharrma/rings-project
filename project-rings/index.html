@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ratna - Timeless Indian Jewelry</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Ratna</div>
+        <div class="nav-links">
+          <a href="#" class="active">All Rings</a>
+          <a href="#">Traditional</a>
+          <a href="#">Contemporary</a>
+          <a href="#">Bridal</a>
+        </div>
+        <div class="cart">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-count">0</span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Timeless Elegance</h1>
+        <p>Where tradition meets contemporary design</p>
+      </section>
+
+      <section class="filters">
+        <select id="material-filter">
+          <option value="">All Materials</option>
+          <option value="gold">22K Gold</option>
+          <option value="silver">Pure Silver</option>
+          <option value="platinum">Platinum</option>
+        </select>
+        <select id="price-filter">
+          <option value="">All Prices</option>
+          <option value="0-25000">₹0 - ₹25,000</option>
+          <option value="25001-50000">₹25,001 - ₹50,000</option>
+          <option value="50001+">₹50,001+</option>
+        </select>
+      </section>
+
+      <section class="products" id="products"></section>
+    </main>
+
+    <div class="cart-modal" id="cart-modal">
+      <div class="cart-content">
+        <h2>Your Cart</h2>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-total">
+          <span>Total:</span>
+          <span id="cart-total">₹0</span>
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+
+    <div class="product-modal" id="product-modal"></div>
+
+    <footer>
+      <p>&copy; 2024 Ratna. Crafting timeless elegance.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
