@@ -1,12 +1,13 @@
 # rings-project
 Preview :
 --------------------------------------------------------------------------
-![q](https://github.com/user-attachments/assets/6d8414b9-bb1e-4f4d-9b4e-16ec2077989f)
+![Screenshot](img/2.png)
+
 
 --------------------------------------------------------------------------
-![2](https://github.com/user-attachments/assets/7834c7a9-126f-4683-8017-52973a32add9)
+![Screenshot](img/3.png)
 
 --------------------------------------------------------------------------
-![3](https://github.com/user-attachments/assets/a1d90e20-ae48-4738-b0b7-9f70232d30a4)
+![Screenshot](img/q.png)
 
 --------------------------------------------------------------------------
